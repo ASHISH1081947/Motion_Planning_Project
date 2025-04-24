@@ -1,0 +1,160 @@
+[0.061s] Invoking command in '/home/ashish/ros2_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros/lib:/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ashish/ros2_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/ashish/ros2_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ashish/ros2_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ashish/ros2_ws/src/cartographer_ros/cartographer_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/cartographer_rviz
+[0.167s] -- The C compiler identification is GNU 11.4.0
+[0.284s] -- The CXX compiler identification is GNU 11.4.0
+[0.301s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.437s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.437s] -- Detecting C compile features
+[0.437s] -- Detecting C compile features - done
+[0.444s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.591s] -- Detecting CXX compile features
+[0.591s] -- Detecting CXX compile features - done
+[0.631s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.924s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.072s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.172s] -- Looking for pthread.h
+[1.284s] -- Looking for pthread.h - found
+[1.284s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.406s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.406s] -- Found Threads: TRUE  
+[1.451s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.455s] -- Found required Ceres dependency: glog
+[1.456s] -- Found required Ceres dependency: gflags
+[1.457s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.473s] -- Build type: Release
+[1.502s] Files /home/ashish/ros2_ws/build/cartographer_rviz/AllFiles.cmake and - differ
+[1.522s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[1.523s] -- Found cartographer_ros: 2.0.9003 (/home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/cmake)
+[1.606s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.624s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.649s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.021s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.031s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.231s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.282s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.332s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.560s] -- Checking for module 'eigen3'
+[2.592s] --   Found eigen3, version 3.4.0
+[2.657s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.657s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.726s] -- Checking for module 'flann'
+[2.762s] --   Found flann, version 1.9.1
+[2.837s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.837s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.897s] -- Checking for module 'libusb-1.0'
+[4.925s] --   Found libusb-1.0, version 1.0.25
+[5.001s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.006s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.125s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.311s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.321s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.330s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.528s] -- Found Qhull version 8.0.2
+[5.718s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.900s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.906s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.908s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.910s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.911s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.912s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.913s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.913s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.914s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.916s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.917s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.918s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.921s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.922s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.924s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.925s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.929s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.929s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.929s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.930s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.931s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.932s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.934s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.935s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.937s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.351s] -- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)
+[6.370s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[6.393s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.399s] -- Found OGRE
+[6.400s] --   static     : OFF
+[6.400s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.400s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.400s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.400s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.400s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[6.400s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.400s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[6.400s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.400s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.400s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.400s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.408s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.411s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[6.440s] -- Found X11: /usr/include   
+[6.627s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[6.662s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.662s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.805s] -- Deploy OGRE media
+[6.820s] -- Configuring done
+[7.041s] -- Generating done
+[7.057s] -- Build files have been written to: /home/ashish/ros2_ws/build/cartographer_rviz
+[7.081s] Invoked command in '/home/ashish/ros2_ws/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros/lib:/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ashish/ros2_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/ashish/ros2_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ashish/ros2_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ashish/ros2_ws/src/cartographer_ros/cartographer_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/cartographer_rviz
+[7.082s] Invoking command in '/home/ashish/ros2_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros/lib:/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ashish/ros2_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/ashish/ros2_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ashish/ros2_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ashish/ros2_ws/build/cartographer_rviz -- -j4 -l4
+[7.194s] [ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[7.208s] [ 16%] Built target cartographer_rviz_detect_changes
+[10.076s] [ 16%] Built target cartographer_rviz_autogen
+[10.122s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/drawable_submap.cpp.o[0m
+[10.122s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o[0m
+[10.122s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/submaps_display.cpp.o[0m
+[10.122s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/ogre_slice.cpp.o[0m
+[33.354s] [100%] [32m[1mLinking CXX shared library libcartographer_rviz.so[0m
+[35.574s] [100%] Built target cartographer_rviz
+[35.594s] Invoked command in '/home/ashish/ros2_ws/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros/lib:/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ashish/ros2_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/ashish/ros2_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ashish/ros2_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ashish/ros2_ws/build/cartographer_rviz -- -j4 -l4
+[35.598s] Invoking command in '/home/ashish/ros2_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros/lib:/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ashish/ros2_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/ashish/ros2_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ashish/ros2_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ashish/ros2_ws/build/cartographer_rviz
+[35.609s] -- Install configuration: "Release"
+[35.610s] -- Execute custom install script
+[35.610s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz//rviz_plugin_description.xml
+[35.624s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/include//cartographer_rviz/drawable_submap.h
+[35.636s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/include//cartographer_rviz/ogre_slice.h
+[35.649s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/include//cartographer_rviz/submaps_display.h
+[35.661s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh
+[35.673s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv
+[35.686s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz
+[35.700s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz
+[35.712s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh
+[35.725s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv
+[35.737s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh
+[35.749s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv
+[35.762s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash
+[35.773s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh
+[35.785s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh
+[35.797s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv
+[35.811s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv
+[35.823s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz
+[35.836s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz
+[35.848s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz
+[35.860s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.872s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[35.885s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.898s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+[35.912s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+[35.925s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.xml
+[35.941s] -- Installing: /home/ashish/ros2_ws/install/cartographer_rviz/lib/libcartographer_rviz.so
+[35.942s] -- Set runtime path of "/home/ashish/ros2_ws/install/cartographer_rviz/lib/libcartographer_rviz.so" to ""
+[35.942s] -- Installing: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120
+[35.942s] -- Installing: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+[35.946s] -- Installing: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+[35.947s] -- Installing: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+[35.948s] -- Installing: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts
+[35.948s] -- Installing: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+[35.949s] -- Installing: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+[35.949s] -- Installing: /home/ashish/ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake
+[35.951s] Invoked command in '/home/ashish/ros2_ws/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/cartographer_ros:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros/lib:/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ashish/ros2_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/ashish/ros2_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/ashish/ros2_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ashish/ros2_ws/build/cartographer_rviz

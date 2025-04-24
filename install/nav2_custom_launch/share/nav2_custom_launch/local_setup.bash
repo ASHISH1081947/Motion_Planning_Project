@@ -1,0 +1,1 @@
+/home/ashish/ros2_ws/build/nav2_custom_launch/ament_cmake_environment_hooks/local_setup.bash

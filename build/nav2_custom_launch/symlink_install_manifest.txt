@@ -1,0 +1,16 @@
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/ament_index/resource_index/package_run_dependencies/nav2_custom_launch
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/ament_index/resource_index/parent_prefix_path/nav2_custom_launch
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/environment/ament_prefix_path.sh
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/environment/ament_prefix_path.dsv
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/environment/path.sh
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/environment/path.dsv
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/local_setup.bash
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/local_setup.sh
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/local_setup.zsh
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/local_setup.dsv
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/package.dsv
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/ament_index/resource_index/packages/nav2_custom_launch
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/cmake/nav2_custom_launchConfig.cmake
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/cmake/nav2_custom_launchConfig-version.cmake
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/package.xml
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch//launch/nav2_launch.py

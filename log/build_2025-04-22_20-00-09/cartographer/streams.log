@@ -1,0 +1,45 @@
+[0.072s] Invoking command in '/home/ashish/ros2_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ashish/ros2_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/cartographer
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.309s] -- The CXX compiler identification is GNU 11.4.0
+[0.321s] -- Detecting C compiler ABI info
+[0.474s] -- Detecting C compiler ABI info - done
+[0.485s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.485s] -- Detecting C compile features
+[0.486s] -- Detecting C compile features - done
+[0.489s] -- Detecting CXX compiler ABI info
+[0.648s] -- Detecting CXX compiler ABI info - done
+[0.663s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.664s] -- Detecting CXX compile features
+[0.665s] -- Detecting CXX compile features - done
+[0.670s] -- Build type: Release
+[0.693s] Files /home/ashish/ros2_ws/build/cartographer/AllFiles.cmake and - differ
+[0.936s] -- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.960s] -- Looking for pthread.h
+[1.131s] -- Looking for pthread.h - found
+[1.136s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.267s] -- Found Threads: TRUE  
+[1.274s] -- Found GMock: gmock_main  
+[1.336s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[1.355s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.372s] -- Found required Ceres dependency: glog
+[1.373s] -- Found required Ceres dependency: gflags
+[1.375s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.387s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.387s]   The package name passed to `find_package_handle_standard_args` (Lua) does
+[1.387s]   not match the name of the calling package (LuaGoogle).  This can lead to
+[1.387s]   problems in calling code that expects `find_package` result variables
+[1.387s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.388s] Call Stack (most recent call first):
+[1.388s]   cmake/modules/FindLuaGoogle.cmake:211 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[1.388s]   CMakeLists.txt:41 (find_package)
+[1.388s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.388s] [0m
+[1.389s] -- Found Lua: /usr/lib/x86_64-linux-gnu/liblua5.2.so;/usr/lib/x86_64-linux-gnu/libm.so (found version "5.2.4") 
+[1.431s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3.0.0") 
+[1.445s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.446s] -- Checking for one of the modules 'cairo>=1.12.16'
+[1.618s] -- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+[1.683s] -- Configuring done
+[2.034s] -- Generating done
+[2.149s] -- Build files have been written to: /home/ashish/ros2_ws/build/cartographer

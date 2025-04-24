@@ -1,0 +1,33 @@
+[0.046s] Invoking command in '/home/ashish/ros2_ws/build/hector_marker_drawing': /usr/bin/cmake /home/ashish/ros2_ws/src/hector_slam/hector_marker_drawing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/hector_marker_drawing
+[0.408s] -- The C compiler identification is GNU 11.4.0
+[0.699s] -- The CXX compiler identification is GNU 11.4.0
+[0.732s] -- Detecting C compiler ABI info
+[0.877s] -- Detecting C compiler ABI info - done
+[0.888s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.889s] -- Detecting C compile features
+[0.889s] -- Detecting C compile features - done
+[0.892s] -- Detecting CXX compiler ABI info
+[1.042s] -- Detecting CXX compiler ABI info - done
+[1.042s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.042s] -- Detecting CXX compile features
+[1.043s] -- Detecting CXX compile features - done
+[1.088s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.088s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.088s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.088s]   CMake did not find one.
+[1.088s] 
+[1.088s]   Could not find a package configuration file provided by "catkin" with any
+[1.088s]   of the following names:
+[1.088s] 
+[1.088s]     catkinConfig.cmake
+[1.088s]     catkin-config.cmake
+[1.088s] 
+[1.088s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.088s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.088s]   provides a separate development package or SDK, be sure it has been
+[1.089s]   installed.
+[1.089s] 
+[1.089s] [0m
+[1.090s] -- Configuring incomplete, errors occurred!
+[1.090s] See also "/home/ashish/ros2_ws/build/hector_marker_drawing/CMakeFiles/CMakeOutput.log".
+[1.094s] Invoked command in '/home/ashish/ros2_ws/build/hector_marker_drawing' returned '1': /usr/bin/cmake /home/ashish/ros2_ws/src/hector_slam/hector_marker_drawing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/hector_marker_drawing

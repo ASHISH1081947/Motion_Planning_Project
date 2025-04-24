@@ -1,0 +1,17 @@
+[1.028s] Invoking command in '/home/ashish/ros2_ws/build/turtlebot3_teleop': PYTHONPATH=/home/ashish/ros2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashish/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ashish/ros2_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[1.322s] running develop
+[1.489s] running egg_info
+[1.489s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.490s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.491s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.491s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.491s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.497s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.497s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.497s] running build_ext
+[1.497s] Creating /home/ashish/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.499s] Installing teleop_keyboard script to /home/ashish/ros2_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.499s] 
+[1.499s] Installed /home/ashish/ros2_ws/build/turtlebot3_teleop
+[1.499s] running symlink_data
+[1.544s] Invoked command in '/home/ashish/ros2_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/ashish/ros2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashish/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ashish/ros2_ws/build/turtlebot3_teleop/build --no-deps symlink_data

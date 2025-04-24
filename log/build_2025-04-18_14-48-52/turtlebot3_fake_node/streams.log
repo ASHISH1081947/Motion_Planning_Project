@@ -1,0 +1,75 @@
+[0.312s] Invoking command in '/home/ashish/ros2_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ashish/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/turtlebot3_fake_node
+[10.283s] -- The C compiler identification is GNU 11.4.0
+[19.466s] -- The CXX compiler identification is GNU 11.4.0
+[20.017s] -- Detecting C compiler ABI info
+[22.384s] -- Detecting C compiler ABI info - done
+[22.523s] -- Check for working C compiler: /usr/bin/cc - skipped
+[22.788s] -- Detecting C compile features
+[22.791s] -- Detecting C compile features - done
+[22.791s] -- Detecting CXX compiler ABI info
+[26.750s] -- Detecting CXX compiler ABI info - done
+[26.829s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[26.829s] -- Detecting CXX compile features
+[26.838s] -- Detecting CXX compile features - done
+[27.018s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[32.328s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[33.835s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[35.195s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[36.457s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[36.579s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[36.854s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[37.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[38.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[38.819s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[39.117s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[40.965s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[41.137s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[47.624s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[48.754s] -- Found FastRTPS: /opt/ros/humble/include  
+[51.068s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[51.479s] -- Looking for pthread.h
+[59.163s] -- Looking for pthread.h - found
+[59.177s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[60.239s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[60.241s] -- Found Threads: TRUE  
+[60.366s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[60.457s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[60.552s] -- Found tf2_msgs: 0.25.12 (/opt/ros/humble/share/tf2_msgs/cmake)
+[61.770s] -- Found turtlebot3_msgs: 2.3.0 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[63.308s] -- Configuring done
+[63.840s] -- Generating done
+[63.940s] -- Build files have been written to: /home/ashish/ros2_ws/build/turtlebot3_fake_node
+[64.669s] Invoked command in '/home/ashish/ros2_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ashish/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/turtlebot3_fake_node
+[64.688s] Invoking command in '/home/ashish/ros2_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ashish/ros2_ws/build/turtlebot3_fake_node -- -j4 -l4
+[68.783s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[208.966s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[216.881s] [100%] Built target turtlebot3_fake_node
+[217.693s] Invoked command in '/home/ashish/ros2_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ashish/ros2_ws/build/turtlebot3_fake_node -- -j4 -l4
+[217.724s] Invoking command in '/home/ashish/ros2_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ashish/ros2_ws/build/turtlebot3_fake_node
+[218.428s] -- Install configuration: ""
+[218.429s] -- Execute custom install script
+[218.429s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[218.543s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[218.979s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[219.674s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[220.388s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[220.445s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[220.808s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[221.165s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[222.013s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[222.420s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[223.030s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[223.651s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[223.828s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[223.851s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[223.873s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[223.922s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[223.947s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[223.991s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[224.274s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[225.159s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[225.242s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[225.307s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[225.913s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[226.253s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[227.336s] Invoked command in '/home/ashish/ros2_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ashish/ros2_ws/build/turtlebot3_fake_node

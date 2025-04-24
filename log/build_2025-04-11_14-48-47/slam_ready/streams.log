@@ -1,0 +1,4 @@
+[0.381s] Invoking command in '/home/ashish/ros2_ws/build/slam_ready': /usr/bin/cmake /home/ashish/ros2_ws -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/slam_ready
+[2.810s] [0mCMake Error: The source directory "/home/ashish/ros2_ws" does not appear to contain CMakeLists.txt.
+[2.826s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[3.116s] Invoked command in '/home/ashish/ros2_ws/build/slam_ready' returned '1': /usr/bin/cmake /home/ashish/ros2_ws -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/slam_ready

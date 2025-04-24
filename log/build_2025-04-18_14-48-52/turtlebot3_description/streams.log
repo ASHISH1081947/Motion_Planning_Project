@@ -1,0 +1,44 @@
+[2.101s] Invoking command in '/home/ashish/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ashish/ros2_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/turtlebot3_description
+[5.896s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.685s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.187s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[15.615s] -- Configuring done
+[16.083s] -- Generating done
+[16.124s] -- Build files have been written to: /home/ashish/ros2_ws/build/turtlebot3_description
+[16.308s] Invoked command in '/home/ashish/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ashish/ros2_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/turtlebot3_description
+[16.314s] Invoking command in '/home/ashish/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ashish/ros2_ws/build/turtlebot3_description -- -j4 -l4
+[18.372s] Invoked command in '/home/ashish/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ashish/ros2_ws/build/turtlebot3_description -- -j4 -l4
+[18.373s] Invoking command in '/home/ashish/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ashish/ros2_ws/build/turtlebot3_description
+[18.647s] -- Install configuration: ""
+[18.648s] -- Execute custom install script
+[18.928s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[19.290s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[19.462s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[19.852s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[20.933s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[21.539s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[22.618s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[22.979s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[23.749s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[24.596s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[25.389s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[25.910s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[26.461s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[27.466s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[28.047s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[28.844s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[29.134s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[29.493s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[30.055s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[30.718s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[31.343s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[31.582s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[32.212s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[32.708s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[33.508s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[33.819s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[35.628s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[36.228s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[36.559s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[37.426s] -- Symlinking: /home/ashish/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[38.389s] Invoked command in '/home/ashish/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ashish/ros2_ws/build/turtlebot3_description

@@ -1,0 +1,33 @@
+[0.082s] Invoking command in '/home/ashish/ros2_ws/build/hector_mapping': /usr/bin/cmake /home/ashish/ros2_ws/src/hector_slam/hector_mapping -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/hector_mapping
+[0.401s] -- The C compiler identification is GNU 11.4.0
+[0.689s] -- The CXX compiler identification is GNU 11.4.0
+[0.725s] -- Detecting C compiler ABI info
+[0.854s] -- Detecting C compiler ABI info - done
+[0.863s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.865s] -- Detecting C compile features
+[0.868s] -- Detecting C compile features - done
+[0.874s] -- Detecting CXX compiler ABI info
+[1.016s] -- Detecting CXX compiler ABI info - done
+[1.040s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.040s] -- Detecting CXX compile features
+[1.041s] -- Detecting CXX compile features - done
+[1.082s] -- Configuring incomplete, errors occurred!
+[1.082s] See also "/home/ashish/ros2_ws/build/hector_mapping/CMakeFiles/CMakeOutput.log".
+[1.082s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.082s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.082s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.082s]   CMake did not find one.
+[1.082s] 
+[1.082s]   Could not find a package configuration file provided by "catkin" with any
+[1.082s]   of the following names:
+[1.082s] 
+[1.082s]     catkinConfig.cmake
+[1.082s]     catkin-config.cmake
+[1.082s] 
+[1.082s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.082s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.082s]   provides a separate development package or SDK, be sure it has been
+[1.082s]   installed.
+[1.082s] 
+[1.082s] [0m
+[1.084s] Invoked command in '/home/ashish/ros2_ws/build/hector_mapping' returned '1': /usr/bin/cmake /home/ashish/ros2_ws/src/hector_slam/hector_mapping -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ashish/ros2_ws/install/hector_mapping

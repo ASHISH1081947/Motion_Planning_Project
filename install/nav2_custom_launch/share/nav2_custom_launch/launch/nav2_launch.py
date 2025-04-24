@@ -1,0 +1,1 @@
+/home/ashish/ros2_ws/src/nav2_custom_launch/launch/nav2_launch.py
