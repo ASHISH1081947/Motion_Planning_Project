@@ -1,0 +1,105 @@
+[0.122s] Invoking command in '/home/ashish/ros2_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:/home/ashish/ros2_ws/install/turtlebot3:/home/ashish/ros2_ws/install/turtlebot3_simulations:/home/ashish/ros2_ws/install/turtlebot3_bringup:/home/ashish/ros2_ws/install/turtlebot3_node:/home/ashish/ros2_ws/install/turtlebot3_navigation2:/home/ashish/ros2_ws/install/turtlebot3_gazebo:/home/ashish/ros2_ws/install/turtlebot3_fake_node:/home/ashish/ros2_ws/install/turtlebot3_description:/home/ashish/ros2_ws/install/turtlebot3_cartographer:/home/ashish/ros2_ws/install/rplidar_ros:/home/ashish/ros2_ws/install/rf2o_laser_odometry:/home/ashish/ros2_ws/install/nav2_custom_launch:/home/ashish/ros2_ws/install/my_robot_description:/home/ashish/ros2_ws/install/cartographer_rviz:/home/ashish/ros2_ws/install/cartographer_ros LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:/home/ashish/ros2_ws/install/rplidar_ros/lib:/home/ashish/ros2_ws/install/cartographer_rviz/lib:/home/ashish/ros2_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ashish/ros2_ws/build/cartographer_ros -- -j4 -l4
+[0.311s] [ 60%] Built target cartographer_ros
+[0.405s] [ 65%] Built target cartographer_node
+[0.603s] [ 71%] Built target cartographer_assets_writer
+[0.791s] [ 77%] Built target cartographer_pbstream_map_publisher
+[0.875s] [ 82%] Built target cartographer_pbstream_to_ros_map
+[1.044s] [ 88%] Built target cartographer_rosbag_validate
+[1.227s] [ 94%] Built target cartographer_offline_node
+[1.388s] [100%] Built target cartographer_occupancy_grid_node
+[1.425s] Invoked command in '/home/ashish/ros2_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:/home/ashish/ros2_ws/install/turtlebot3:/home/ashish/ros2_ws/install/turtlebot3_simulations:/home/ashish/ros2_ws/install/turtlebot3_bringup:/home/ashish/ros2_ws/install/turtlebot3_node:/home/ashish/ros2_ws/install/turtlebot3_navigation2:/home/ashish/ros2_ws/install/turtlebot3_gazebo:/home/ashish/ros2_ws/install/turtlebot3_fake_node:/home/ashish/ros2_ws/install/turtlebot3_description:/home/ashish/ros2_ws/install/turtlebot3_cartographer:/home/ashish/ros2_ws/install/rplidar_ros:/home/ashish/ros2_ws/install/rf2o_laser_odometry:/home/ashish/ros2_ws/install/nav2_custom_launch:/home/ashish/ros2_ws/install/my_robot_description:/home/ashish/ros2_ws/install/cartographer_rviz:/home/ashish/ros2_ws/install/cartographer_ros LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:/home/ashish/ros2_ws/install/rplidar_ros/lib:/home/ashish/ros2_ws/install/cartographer_rviz/lib:/home/ashish/ros2_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ashish/ros2_ws/build/cartographer_ros -- -j4 -l4
+[1.426s] Invoking command in '/home/ashish/ros2_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:/home/ashish/ros2_ws/install/turtlebot3:/home/ashish/ros2_ws/install/turtlebot3_simulations:/home/ashish/ros2_ws/install/turtlebot3_bringup:/home/ashish/ros2_ws/install/turtlebot3_node:/home/ashish/ros2_ws/install/turtlebot3_navigation2:/home/ashish/ros2_ws/install/turtlebot3_gazebo:/home/ashish/ros2_ws/install/turtlebot3_fake_node:/home/ashish/ros2_ws/install/turtlebot3_description:/home/ashish/ros2_ws/install/turtlebot3_cartographer:/home/ashish/ros2_ws/install/rplidar_ros:/home/ashish/ros2_ws/install/rf2o_laser_odometry:/home/ashish/ros2_ws/install/nav2_custom_launch:/home/ashish/ros2_ws/install/my_robot_description:/home/ashish/ros2_ws/install/cartographer_rviz:/home/ashish/ros2_ws/install/cartographer_ros LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:/home/ashish/ros2_ws/install/rplidar_ros/lib:/home/ashish/ros2_ws/install/cartographer_rviz/lib:/home/ashish/ros2_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ashish/ros2_ws/build/cartographer_ros
+[1.452s] -- Install configuration: ""
+[1.453s] -- Execute custom install script
+[1.454s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/lib/libcartographer_ros.a
+[1.455s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[1.455s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[1.455s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[1.455s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[1.455s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[1.465s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[1.465s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[1.465s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/assets_writer.h
+[1.465s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h
+[1.465s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h
+[1.465s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/msg_conversion.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/node.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/node_constants.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/node_options.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/offline_node.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/playable_bag.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/ros_map.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/submap.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/tf_bridge.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/time_conversion.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/trajectory_options.h
+[1.466s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/include//cartographer_ros/urdf_reader.h
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[1.467s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[1.469s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[1.470s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[1.470s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[1.470s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[1.471s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[1.471s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[1.471s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[1.471s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[1.471s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[1.471s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[1.471s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[1.471s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[1.471s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[1.472s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[1.473s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[1.473s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[1.473s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[1.473s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[1.473s] -- Symlinking: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/package.dsv
+[1.486s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[1.486s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.486s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[1.487s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.487s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[1.487s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[1.487s] -- Up-to-date symlink: /home/ashish/ros2_ws/install/cartographer_ros/share/cartographer_ros/package.xml
+[1.491s] Invoked command in '/home/ashish/ros2_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/ashish/ros2_ws/install/turtlebot3_teleop:/home/ashish/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/ashish/ros2_ws/install/cartographer_ros_msgs:/home/ashish/ros2_ws/install/cartographer:/home/ashish/ros2_ws/install/turtlebot3:/home/ashish/ros2_ws/install/turtlebot3_simulations:/home/ashish/ros2_ws/install/turtlebot3_bringup:/home/ashish/ros2_ws/install/turtlebot3_node:/home/ashish/ros2_ws/install/turtlebot3_navigation2:/home/ashish/ros2_ws/install/turtlebot3_gazebo:/home/ashish/ros2_ws/install/turtlebot3_fake_node:/home/ashish/ros2_ws/install/turtlebot3_description:/home/ashish/ros2_ws/install/turtlebot3_cartographer:/home/ashish/ros2_ws/install/rplidar_ros:/home/ashish/ros2_ws/install/rf2o_laser_odometry:/home/ashish/ros2_ws/install/nav2_custom_launch:/home/ashish/ros2_ws/install/my_robot_description:/home/ashish/ros2_ws/install/cartographer_rviz:/home/ashish/ros2_ws/install/cartographer_ros LD_LIBRARY_PATH=/home/ashish/ros2_ws/install/cartographer_ros_msgs/lib:/home/ashish/ros2_ws/install/rplidar_ros/lib:/home/ashish/ros2_ws/install/cartographer_rviz/lib:/home/ashish/ros2_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ashish/ros2_ws/build/cartographer_ros

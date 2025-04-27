@@ -14,3 +14,4 @@
 /home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/cmake/nav2_custom_launchConfig-version.cmake
 /home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch/package.xml
 /home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch//launch/nav2_launch.py
+/home/ashish/ros2_ws/install/nav2_custom_launch/share/nav2_custom_launch//launch/nav2_navigation_only.launch.py

@@ -1,0 +1,53 @@
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 5.0
+    use_sim_time: false
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+
+controller_server:
+  ros__parameters:
+    use_sim_time: false
+    controller_frequency: 10.0
+    controller_plugins: ["FollowPath"]
+    FollowPath:
+      plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: false
+    default_bt_xml_filename: "navigate_w_replanning.xml"
+
+waypoint_follower:
+  ros__parameters:
+    use_sim_time: false
+    stop_on_failure: true
+    loop_rate: 20
+
+smoother_server:
+  ros__parameters:
+    use_sim_time: false
+    smoother_plugins: ["simple_smoother"]
+    simple_smoother:
+      plugin: "nav2_smoother::SimpleSmoother"
+
+velocity_smoother:
+  ros__parameters:
+    use_sim_time: false
+    smoothing_frequency: 20.0
+    scale_velocities: true
+    feedback: "OPEN_LOOP"
+
+lifecycle_manager:
+  ros__parameters:
+    use_sim_time: false
+    autostart: true
+    node_names:
+      - controller_server
+      - planner_server
+      - bt_navigator
+      - waypoint_follower
+      - smoother_server
+      - velocity_smoother
+

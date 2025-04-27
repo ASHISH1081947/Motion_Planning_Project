@@ -1,0 +1,22 @@
+controller_server:
+  ros__parameters:
+    use_sim_time: false
+    controller_frequency: 10.0
+    controller_plugins: ["FollowPath"]
+
+    FollowPath:
+      plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+      use_velocity_scaled_lookahead: true
+      min_turning_radius: 0.55
+      desired_linear_vel: 0.8
+      max_linear_vel: 1.0
+      min_x_velocity_threshold: 0.5
+      min_theta_velocity_threshold: 0.95
+      lookahead_time: 1.5
+      max_lookahead_dist: 1.0
+      min_lookahead_dist: 0.4
+      rotate_to_heading_min_angle: 3.14
+      regulate_linear_velocity: true
+      use_intermediate_goal: true
+      allow_reversing: false
+
